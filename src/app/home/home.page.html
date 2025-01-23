@@ -1,20 +1,48 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar mode="ios">
     <ion-title>
       Blank
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" >
   <ion-header collapse="condense">
-    <ion-toolbar>
+    <ion-toolbar mode="ios">
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-list>
+    <ion-item routerLink="/accordion">
+      <ion-label>Accordion</ion-label>
+    </ion-item>
+    <ion-item routerLink="/badge">
+      <ion-label>Badge</ion-label>
+    </ion-item>
+    <ion-item routerLink="/button">
+      <ion-label>Button</ion-label>
+    </ion-item>
+    <ion-item routerLink="/card">
+      <ion-label>Card</ion-label>
+    </ion-item>
+    <ion-item routerLink="/media">
+      <ion-label>Media</ion-label>
+    </ion-item>
+    <ion-item routerLink="/menu">
+      <ion-label>Menu</ion-label>
+    </ion-item>
+    <ion-item routerLink="/list">
+      <ion-label>List</ion-label>
+    </ion-item>
+    <ion-item routerLink="/select">
+      <ion-label>Select</ion-label>
+    </ion-item>
+    <ion-item routerLink="/tabs">
+      <ion-label>Tabs</ion-label>
+    </ion-item>
+    <ion-item routerLink="/toast">
+      <ion-label>Toast</ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
